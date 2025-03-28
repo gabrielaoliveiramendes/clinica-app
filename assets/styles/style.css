@@ -1,0 +1,17 @@
+@import url("./reset.css");
+@import url("./status-bar.css");
+@import url("./profile.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cinza-principal: #464646;
+    --cinza-secundario: #A3A3A3;
+    --bold: 700;
+    --medium: 500;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}

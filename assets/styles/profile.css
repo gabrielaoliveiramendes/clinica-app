@@ -1,0 +1,23 @@
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0 1.37rem 1rem;
+}
+
+.profile_img{
+    border-radius: 50%;
+    height: 3.5rem;
+}
+
+.profile_info h1{
+    color: var(--cinza-principal);
+    font-size: 1.37rem;
+    font-weight: var(--bold);
+    margin-bottom: 0.5rem;
+}
+
+.profile_info p{
+    color: var(--cinza-secundario);
+    font-size: 0.87rem;
+}
