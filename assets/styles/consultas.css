@@ -1,0 +1,113 @@
+.consultas{
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas_dia{
+    font-weight: var(--bold);
+    height: 2.62rem;
+    color: var(--cinza-principal);
+    margin-left: 16px;
+}
+
+.consultas_todas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consulta_card{
+    width: 328px;
+    background-color: #fff;
+    height: 170px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consulta_card_info{
+    display: flex;
+    gap: 91px;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.consulta_card_usuario_img{
+    border-radius: 50%;
+    height: 32px;
+}
+
+.consulta_card_usuario{
+    display: flex;
+    gap: 16px;
+}
+
+.consulta_card_usuario_info_nome{
+    font-size: 14px;
+    font-weight: var(--bold);
+    color: var(--cinza-principal);
+}
+
+.consulta_card_usuario_info_modalidade{
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.consulta_card_usuario_info_modalidade p{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.consulta_card_chat{
+    height: 13.33px;
+    padding: 9.33px;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+}
+
+.consulta_card hr{
+    border-color: rgb(70, 70, 70, 0.1);
+    width: 328px;
+}
+
+.consulta_card_horario{
+    margin-top: 9px;
+}
+
+.consulta_card_horario p{
+    font-size: 12px;
+    font-weight: var(--medium);
+    color: var(--cinza-principal);
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+
+.consulta_card_botoes{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.consulta_card_botao{
+    background-color: red;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: var(--medium);
+    font-size: 14px;
+    padding: 13px 16px;
+    border-radius: 8px;
+}
+
+.consulta_card_botao.laranja{
+    background-color: var(--laranja);
+    color: #FFFFFF;
+}
+
+.consulta_card_botao.branco{
+    background-color: #FFFFFF;
+    color: var(--cinza-principal);
+    border: 1px solid #ECECEC;
+}

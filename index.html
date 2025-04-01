@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Clínica</title>
 </head>
+
 <body>
     <section class="status-bar">
-            <p class="status-bar_time">03:33</p>
-             <div class="status-bar_icons">
-                <img src="./assets/imgs/icons/signal_cellular_4_bar.png" alt="">
-                <img src="./assets/imgs/icons/battery_full.png" alt="">
-                <img src="./assets/imgs/icons/wifi.png" alt="">
-             </div>           
+        <p class="status-bar_time">03:33</p>
+        <div class="status-bar_icons">
+            <img src="./assets/imgs/icons/signal_cellular_4_bar.png" alt="">
+            <img src="./assets/imgs/icons/battery_full.png" alt="">
+            <img src="./assets/imgs/icons/wifi.png" alt="">
+        </div>
     </section>
 
     <main class="profile">
@@ -23,5 +25,36 @@
             <p>Mais 4 consultas hoje</p>
         </div>
     </main>
+
+    <section class="consultas">
+        <h2 class="consultas_dia">Hoje</h2>
+
+        <div class="consultas_todas">
+            <div class="consulta_card">
+                <div class="consulta_card_info">
+                    <div class="consulta_card_usuario">
+                        <img src="./assets/imgs/perfil/perfil-2.jpg" alt=""  class="consulta_card_usuario_img">
+                        <div class="consulta_card_usuario_info">
+                            <p class="consulta_card_usuario_info_nome">Luciana Dias</p>
+                            <div  class="consulta_card_usuario_info_modalidade">
+                                <img src="./assets/imgs/icons/Camera.png" alt="Icone camera">
+                                <p>Consulta remota</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/imgs/icons/chat1.png" alt="Icone chat"  class="consulta_card_chat">
+                </div>
+
+                <hr>
+                <div class="consulta_card_horario">
+                    <p>14:00 - 15:00 (1 hora)</p>
+                    <div class="consulta_card_botoes">
+                        <button class="consulta_card_botao laranja">Ligar por vídeo</button>
+                        <button class="consulta_card_botao branco">Ligar por áudio</button>
+                    </div>
+                </div>
+        </div>
+    </section>
 </body>
+
 </html>
