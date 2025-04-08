@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Clínica</title>
 </head>
@@ -29,30 +30,31 @@
     <section class="consultas">
         <h2 class="consultas_dia">Hoje</h2>
 
-        <div class="consultas_todas">
+        <div class="consultas_dia_agendadas">
             <div class="consulta_card">
-                <div class="consulta_card_info">
-                    <div class="consulta_card_usuario">
-                        <img src="./assets/imgs/perfil/perfil-2.jpg" alt=""  class="consulta_card_usuario_img">
-                        <div class="consulta_card_usuario_info">
-                            <p class="consulta_card_usuario_info_nome">Luciana Dias</p>
-                            <div  class="consulta_card_usuario_info_modalidade">
-                                <img src="./assets/imgs/icons/Camera.png" alt="Icone camera">
-                                <p>Consulta remota</p>
-                            </div>
+                <div class="consultas_info">
+                    <div class="consulta_info_usuario">
+                        <img src="./assets/imgs/perfil/perfil-2.jpg" alt="Foto perfil usuário" class="imagem_usuario">
+                        <div class="usuario_info">
+                            <p class="usuario_info_nome">Luciana Dias</p>
+                            <p class="usuario_info_consulta">Consulta remota</p>
                         </div>
                     </div>
-                    <img src="./assets/imgs/icons/chat1.png" alt="Icone chat"  class="consulta_card_chat">
+                    <a href="#" class="consulta_chat">
+                        <img src="./assets/imgs/icons/chat1.png" alt="Ícone chat" class="chat_icon">
+                    </a>
                 </div>
 
                 <hr>
-                <div class="consulta_card_horario">
-                    <p>14:00 - 15:00 (1 hora)</p>
-                    <div class="consulta_card_botoes">
-                        <button class="consulta_card_botao laranja">Ligar por vídeo</button>
-                        <button class="consulta_card_botao branco">Ligar por áudio</button>
+
+                <div class="consulta_atendimento">
+                    <p class="consulta_atendimento_horario">14:00 - 15:00 (1 hora)</p>
+                    <div class="consulta_atendimento_remota">
+                        <button class="consulta_remota_botao laranja">Ligar por vídeo</button>
+                        <button class="consulta_remota_botao branco">Ligar por áudio</button>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
 </body>

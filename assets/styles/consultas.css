@@ -1,112 +1,107 @@
-.consultas{
-    display: flex;
-    flex-direction: column;
-}
-
 .consultas_dia{
     font-weight: var(--bold);
-    height: 2.62rem;
     color: var(--cinza-principal);
-    margin-left: 16px;
+    margin: 8px auto 8px 16px;
 }
 
-.consultas_todas{
-    width: 100%;
+.consultas_dia_agendadas{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .consulta_card{
-    width: 328px;
-    background-color: #fff;
-    height: 170px;
-    border-radius: 8px;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 328px;
+    border-radius: 8px;
 }
 
-.consulta_card_info{
+.consultas_info{
     display: flex;
     gap: 91px;
-    justify-content: center;
-    margin-bottom: 12px;
+    align-items: center;
+    padding: 16px 16px 10px 16px;
 }
 
-.consulta_card_usuario_img{
-    border-radius: 50%;
-    height: 32px;
-}
-
-.consulta_card_usuario{
+.consulta_info_usuario{
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
-.consulta_card_usuario_info_nome{
+.imagem_usuario{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.usuario_info_nome{
     font-size: 14px;
     font-weight: var(--bold);
     color: var(--cinza-principal);
+    margin-bottom: 5px;
 }
 
-.consulta_card_usuario_info_modalidade{
-    display: flex;
-    gap: 8px;
-    margin-top: 5px;
-}
-
-.consulta_card_usuario_info_modalidade p{
+.usuario_info_consulta{
     font-size: 12px;
     color: var(--cinza-secundario);
+    background-image: url("../imgs/icons/Camera.png");
+    background-repeat: no-repeat;
+    padding-left: 24px;
 }
 
-.consulta_card_chat{
-    height: 13.33px;
-    padding: 9.33px;
+.consulta_chat{
     background-color: #F6F6F6;
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+}
+
+.chat_icon{
+    vertical-align: center;
 }
 
 .consulta_card hr{
-    border-color: rgb(70, 70, 70, 0.1);
     width: 328px;
+    border: 1px solid #ECECEC;
 }
 
-.consulta_card_horario{
-    margin-top: 9px;
+.consulta_atendimento{
+    padding: 10px 16px 16px 16px;
 }
 
-.consulta_card_horario p{
+.consulta_atendimento_horario{
+    color: var(--cinza-principal);
     font-size: 12px;
     font-weight: var(--medium);
-    color: var(--cinza-principal);
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
-.consulta_card_botoes{
+.consulta_atendimento_remota{
+    min-width: 139px;
     display: flex;
-    gap: 18px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.consulta_card_botao{
-    background-color: red;
-    border: none;
-    font-family: "Montserrat", sans-serif;
+.consulta_remota_botao{
     font-weight: var(--medium);
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     padding: 13px 16px;
     border-radius: 8px;
+    border: none;
 }
 
-.consulta_card_botao.laranja{
-    background-color: var(--laranja);
+.consulta_remota_botao.laranja{
+    background-color: #FFB050;
     color: #FFFFFF;
 }
 
-.consulta_card_botao.branco{
+.consulta_remota_botao.branco{
     background-color: #FFFFFF;
     color: var(--cinza-principal);
     border: 1px solid #ECECEC;
