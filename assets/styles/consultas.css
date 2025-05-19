@@ -1,10 +1,15 @@
-.consultas_dia{
+.consultas {
+    padding-bottom: 58px;
+    position: relative;
+}
+
+.consultas_dia {
     font-weight: var(--bold);
     color: var(--cinza-principal);
     margin: 0.5rem auto 0.5rem 1rem;
 }
 
-.consultas_dia_agendadas{
+.consultas_dia_agendadas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +17,7 @@
     margin-bottom: 1.5rem;
 }
 
-.consulta_card{
+.consulta_card {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -20,33 +25,33 @@
     border-radius: 0.5rem;
 }
 
-.consultas_info{
+.consultas_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem 0.625rem 1rem;
 }
 
-.consulta_info_usuario{
+.consulta_info_usuario {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
 
-.imagem_usuario{
+.imagem_usuario {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
 }
 
-.usuario_info_nome{
+.usuario_info_nome {
     font-size: 0.875rem;
     font-weight: var(--bold);
     color: var(--cinza-principal);
     margin-bottom: 0.31rem;
 }
 
-.usuario_info_consulta.remota{
+.usuario_info_consulta.remota {
     height: 1.18rem;
     font-size: 0.75rem;
     color: var(--cinza-secundario);
@@ -55,7 +60,7 @@
     padding-left: 1.5rem;
 }
 
-.consulta_chat{
+.consulta_chat {
     background-color: #F6F6F6;
     height: 2rem;
     width: 2rem;
@@ -64,33 +69,33 @@
     line-height: 2.25rem;
 }
 
-.chat_icon{
+.chat_icon {
     vertical-align: center;
 }
 
-.consulta_card hr{
+.consulta_card hr {
     width: 20.5rem;
     border: 1px solid #ECECEC;
 }
 
-.consulta_atendimento{
+.consulta_atendimento {
     padding: 0.625rem 1rem 1rem 1rem;
 }
 
-.consulta_atendimento_horario{
+.consulta_atendimento_horario {
     color: var(--cinza-principal);
     font-size: 0.75rem;
     font-weight: var(--medium);
     margin-bottom: 0.5rem;
 }
 
-.consulta_atendimento_remota{
+.consulta_atendimento_remota {
     min-width: 8.68rem;
     display: flex;
     justify-content: space-between;
 }
 
-.consulta_remota_botao{
+.consulta_remota_botao {
     font-weight: var(--medium);
     font-family: "Montserrat", sans-serif;
     font-size: 0.875rem;
@@ -100,18 +105,18 @@
     cursor: pointer;
 }
 
-.consulta_remota_botao.laranja{
+.consulta_remota_botao.laranja {
     background-color: var(--laranja);
     color: #FFFFFF;
 }
 
-.consulta_remota_botao.branco{
+.consulta_remota_botao.branco {
     background-color: #FFFFFF;
     color: var(--cinza-principal);
     border: 1px solid #ECECEC;
 }
 
-.usuario_info_consulta.local{
+.usuario_info_consulta.local {
     line-height: 1.18rem;
     font-size: 0.75rem;
     color: var(--cinza-secundario);
@@ -120,8 +125,46 @@
     padding-left: 1.5rem;
 }
 
-.consulta_remota_botao.azul{
+.consulta_remota_botao.azul {
     background-color: var(--azul);
     color: #FFFFFF;
     width: 100%;
+}
+
+.menu_opcoes {
+    z-index: 1;
+    position: fixed;
+    bottom: 74px;
+    right: 16px;
+}
+
+.menu_opcoes_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.menu_azul {
+    width: 56px;
+    height: 56px;
+    background-color: var(--azul);
+    border-radius: 50%;
+    border: none;
+    left: 287px;
+    filter: drop-shadow(0px 4px 16px rgba(72, 148, 255, 0.5));
+}
+
+.menu_opcoes_list_item {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu_opcoes_list_item p{
+    font-size: 12px;
+    font-weight: var(--medium);
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 8px;
 }
