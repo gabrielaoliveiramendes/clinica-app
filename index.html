@@ -303,26 +303,28 @@
 
         <div class="menu_opcoes">
             <ul class="menu_opcoes_list">
-                <!-- <li class="menu_opcoes_list_item">
+                <li class="menu_opcoes_list_item hide" id="menuRemota">
                     <P>Nova consulta na casa do paciente</P>
                     <button class="menu_opcoes_list_item_casa menu_azul">
                         <img src="./assets/imgs/icons/pinfabiconee.png" alt="Nova consulta na casa do paciente">
                     </button>
                 </li>
-                <li class="menu_opcoes_list_item">
+                <li class="menu_opcoes_list_item hide" id="menuVideo">
                     <P>Nova consulta por vídeo</P>
                     <button class="menu_opcoes_list_item_video menu_azul">
                         <img src="./assets/imgs/icons/Camerafab.png" alt="Nova consulta por vídeo">
                     </button>
-                </li> -->
-                <li class="menu_opcoes_list_item">
+                </li>
+                <li class="menu_opcoes_list_item" id="menuMais">
                     <button class="menu_opcoes_list_item_mais menu_azul">
                         <img src="./assets/imgs/icons/maisicone.png" alt="Menu mais opções">
                     </button>
                 </li>
             </ul>
-
+        </div>
     </section>
+
+    <div class="menu_overlay desativado" id="menuOverlay"></div>
 
     <section class="menu">
         <ul class="menu_list">
@@ -344,6 +346,8 @@
             </li>
         </ul>
     </section>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

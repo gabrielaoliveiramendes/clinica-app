@@ -151,7 +151,11 @@
     border-radius: 50%;
     border: none;
     left: 287px;
-    filter: drop-shadow(0px 4px 16px rgba(72, 148, 255, 0.5));
+    box-shadow: 0px 4px 16px 0px rgba(72, 148, 255, 0.5);
+}
+
+.menu_opcoes_list_item.hide{
+    display: none;
 }
 
 .menu_opcoes_list_item {
@@ -159,12 +163,14 @@
     justify-content: right;
     align-items: center;
     gap: 1rem;
+    z-index: 1;
 }
 
 .menu_opcoes_list_item p{
     font-size: 12px;
     font-weight: var(--medium);
     background-color: #fff;
-    padding: 2px 8px;
-    border-radius: 8px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    color: var(--cinza-principal);
 }
