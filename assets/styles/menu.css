@@ -1,7 +1,7 @@
 .menu {
-    height: 58px;
+    height: 3.5rem;
     background-color: #FFFFFF;
-    border-radius: 12px 12px 0px 0px;
+    border-radius: 0.75rem 0.75rem 0px 0px;
     position: fixed;
     bottom: 0;
     width: 100vw;
@@ -14,17 +14,17 @@
     display: flex;
     align-items: baseline;
     justify-content: center;
-    gap: 36px;
+    gap: 2.25rem;
 }
 
 .menu_list_item{
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--cinza-secundario);
 }
 
 .menu_list_item img{
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .menu_list_item:first-child p {

@@ -134,8 +134,8 @@
 .menu_opcoes {
     z-index: 1;
     position: fixed;
-    bottom: 74px;
-    right: 16px;
+    bottom: 4.625rem;
+    right: 1rem;
 }
 
 .menu_opcoes_list {
@@ -145,13 +145,13 @@
 }
 
 .menu_azul {
-    width: 56px;
-    height: 56px;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: var(--azul);
     border-radius: 50%;
     border: none;
-    left: 287px;
-    box-shadow: 0px 4px 16px 0px rgba(72, 148, 255, 0.5);
+    left: 17.9375rem;
+    box-shadow: 0 0.25rem 1rem 0 rgba(72, 148, 255, 0.5);
 }
 
 .menu_opcoes_list_item.hide{
@@ -167,10 +167,10 @@
 }
 
 .menu_opcoes_list_item p{
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: var(--medium);
     background-color: #fff;
-    padding: 4px 8px;
-    border-radius: 10px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.625rem;
     color: var(--cinza-principal);
 }
