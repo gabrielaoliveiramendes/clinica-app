@@ -1,63 +1,76 @@
-.consultas {
-    padding-bottom: 58px;
+.consultas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    padding: 0 0 58px;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .consultas_dia {
     font-weight: var(--bold);
     color: var(--cinza-principal);
-    margin: 0.5rem auto 0.5rem 1rem;
+    margin: 8px auto 10px 1rem;
+    letter-spacing: 0.01em;
 }
 
 .consultas_dia_agendadas {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
 }
 
 .consulta_card {
-    background-color: #FFFFFF;
+    box-sizing: border-box;
+    width: 328px;
+    background: #fff;
     display: flex;
     flex-direction: column;
-    width: 20.5rem;
     border-radius: 0.5rem;
+    height: 170px;
 }
 
 .consultas_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem 0.625rem 1rem;
+    padding: 1rem 1rem 12px 1rem;
 }
 
 .consulta_info_usuario {
     display: flex;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
 }
 
 .imagem_usuario {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.usuario_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .usuario_info_nome {
     font-size: 0.875rem;
     font-weight: var(--bold);
     color: var(--cinza-principal);
-    margin-bottom: 0.31rem;
 }
 
-.usuario_info_consulta.remota {
-    height: 1.18rem;
+.usuario_info_consulta {
     font-size: 0.75rem;
     color: var(--cinza-secundario);
-    background-image: url("../imgs/icons/Camera.png");
-    background-repeat: no-repeat;
-    padding-left: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .consulta_chat {
@@ -66,69 +79,60 @@
     width: 2rem;
     border-radius: 50%;
     text-align: center;
-    line-height: 2.25rem;
-}
-
-.chat_icon {
-    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .consulta_card hr {
-    width: 20.5rem;
+    width: 100%;
     border: 1px solid #ECECEC;
+    
 }
 
 .consulta_atendimento {
-    padding: 0.625rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 9px 1rem 1rem 1rem;
 }
 
 .consulta_atendimento_horario {
-    color: var(--cinza-principal);
     font-size: 0.75rem;
+    color: var(--cinza-principal);
     font-weight: var(--medium);
-    margin-bottom: 0.5rem;
 }
 
 .consulta_atendimento_remota {
-    min-width: 8.68rem;
     display: flex;
     justify-content: space-between;
 }
 
 .consulta_remota_botao {
-    font-weight: var(--medium);
     font-family: "Montserrat", sans-serif;
-    font-size: 0.875rem;
-    padding: 0.81rem 1rem;
-    border-radius: 0.5rem;
     border: none;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: var(--medium);
+    padding: 0.81rem 1rem;
     cursor: pointer;
 }
 
 .consulta_remota_botao.laranja {
-    background-color: var(--laranja);
-    color: #FFFFFF;
-}
-
-.consulta_remota_botao.branco {
-    background-color: #FFFFFF;
-    color: var(--cinza-principal);
-    border: 1px solid #ECECEC;
-}
-
-.usuario_info_consulta.local {
-    line-height: 1.18rem;
-    font-size: 0.75rem;
-    color: var(--cinza-secundario);
-    background-image: url("../imgs/icons/pin.png");
-    background-repeat: no-repeat;
-    padding-left: 1.5rem;
+    background: var(--laranja);
+    color: #fff;
 }
 
 .consulta_remota_botao.azul {
-    background-color: var(--azul);
-    color: #FFFFFF;
+    background: var(--azul);
+    color: #fff;
     width: 100%;
+}
+
+.consulta_remota_botao.branco {
+    background-color: #fff;
+    color: var(--cinza-principal);
+    border: 1px solid #ECECEC;
 }
 
 .menu_opcoes {
