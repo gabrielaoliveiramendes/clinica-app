@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
 }
 
 .menu_list {
@@ -29,4 +30,4 @@
 
 .menu_list_item:first-child p {
     color: var(--azul);
-  }
+}
