@@ -179,3 +179,31 @@
     border-radius: 0.625rem;
     color: var(--cinza-principal);
 }
+
+@media (min-width: 768px) {
+    .consultas_dia_agendadas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .consultas_dia_agendadas {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 66px;
+    }
+
+    .consulta_card{
+        width: 400px;
+    }
+
+    .consulta_atendimento_horario {
+        font-size: 14px;
+    }
+
+    .consulta_remota_botao{
+        font-size: 1rem;
+        padding: 11px 25px ;
+    }
+}
