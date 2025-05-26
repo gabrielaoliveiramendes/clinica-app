@@ -191,7 +191,8 @@
 @media (min-width: 1440px) {
     .consultas_dia_agendadas {
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px 66px;
+        width: 100%;
+        justify-items: center;
     }
 
     .consulta_card{
