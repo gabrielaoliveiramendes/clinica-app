@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding: 0 0 58px;
+    padding: 0 0 3.625rem;
     min-height: 100vh;
     width: 100%;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
 .consultas_dia {
     font-weight: var(--bold);
     color: var(--cinza-principal);
-    margin: 8px auto 10px 1rem;
+    margin: 0.5rem auto 0.625rem 1rem;
     letter-spacing: 0.01em;
 }
 
@@ -25,19 +25,19 @@
 
 .consulta_card {
     box-sizing: border-box;
-    width: 328px;
+    width: 20.5rem;
     background: #fff;
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
-    height: 170px;
+    height: 10.625rem;
 }
 
 .consultas_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem 12px 1rem;
+    padding: 1rem 1rem 0.75rem 1rem;
 }
 
 .consulta_info_usuario {
@@ -56,7 +56,7 @@
 .usuario_info {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3125rem;
 }
 
 .usuario_info_nome {
@@ -86,7 +86,7 @@
 
 .consulta_card hr {
     width: 100%;
-    border: 1px solid #ECECEC;
+    border: 0.0625rem solid #ECECEC;
     
 }
 
@@ -94,7 +94,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 9px 1rem 1rem 1rem;
+    padding: 0.5625rem 1rem 1rem 1rem;
 }
 
 .consulta_atendimento_horario {
@@ -132,7 +132,7 @@
 .consulta_remota_botao.branco {
     background-color: #fff;
     color: var(--cinza-principal);
-    border: 1px solid #ECECEC;
+    border: 0.0625rem solid #ECECEC;
 }
 
 .menu_opcoes {
@@ -184,7 +184,7 @@
     .consultas_dia_agendadas {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 2.5rem;
     }
 }
 
@@ -196,15 +196,15 @@
     }
 
     .consulta_card{
-        width: 400px;
+        width: 25rem;
     }
 
     .consulta_atendimento_horario {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     .consulta_remota_botao{
         font-size: 1rem;
-        padding: 11px 25px ;
+        padding: 0.6875rem 1.5625rem ;
     }
 }
