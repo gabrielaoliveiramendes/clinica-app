@@ -18,15 +18,20 @@
 }
 
 .menu_list_item{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 0.75rem;
-    color: var(--cinza-secundario);
+    color: var(--cinza-principal);
+    gap: 0.125rem;
 }
 
-.menu_list_item img{
-    margin-bottom: 0.125rem;
+.menu_list_item{
+    cursor: pointer;
 }
 
-.menu_list_item:first-child p {
+.menu_list_item:hover,
+.menu_list_item.ativo {
     color: var(--azul);
+    filter: invert(54%) sepia(98%) saturate(747%) hue-rotate(181deg) brightness(101%) contrast(101%);
 }
