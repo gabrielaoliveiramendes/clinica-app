@@ -17,7 +17,7 @@
     gap: 2.25rem;
 }
 
-.menu_list_item{
+.menu_list_item {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -26,7 +26,7 @@
     gap: 0.125rem;
 }
 
-.menu_list_item{
+.menu_list_item {
     cursor: pointer;
 }
 
@@ -34,4 +34,27 @@
 .menu_list_item.ativo {
     color: var(--azul);
     filter: invert(54%) sepia(98%) saturate(747%) hue-rotate(181deg) brightness(101%) contrast(101%);
+}
+
+@media (min-width: 1440px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 140px;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .menu_list {
+        flex-direction: column;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .menu_list_item {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
 }

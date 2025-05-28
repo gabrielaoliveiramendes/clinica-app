@@ -31,3 +31,9 @@ body{
 .menu_overlay.desativado {
     display: none;
 }
+
+@media (min-width: 1440px) {
+    body {
+        margin-left: 150px;
+    }
+}
