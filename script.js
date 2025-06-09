@@ -3,6 +3,9 @@ let btnMenuRemota = document.getElementById("menuRemota");
 let btnMenuVideo = document.getElementById("menuVideo");
 let overlay = document.getElementById("menuOverlay");
 
+const btnFormulario = document.querySelector(".nova_consulta-btn")
+const formulario = document.querySelector(".formulario_consulta");
+
 const menuItems = document.querySelectorAll('.menu_list_item');
 
 btnMenuMais.addEventListener("click", () => {
@@ -20,4 +23,9 @@ menuItems.forEach(item => {
         // Adiciona a classe 'ativo' ao item clicado
         this.classList.add('ativo');
     });
+});
+
+btnFormulario.addEventListener("click", () => {
+    formulario.classList.toggle("desativado");
+    overlay.classList.toggle("desativado");
 });
